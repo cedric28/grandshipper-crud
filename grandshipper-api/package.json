@@ -6,8 +6,11 @@
     "type": "git"
   },
   "main": "index.js",
+  
   "scripts": {
-    "start": "node --watch index.js"
+    "start": "node --watch index.js", 
+    "test": "jest --verbose"
+
   },
   "keywords": [],
   "author": "",
@@ -27,5 +30,9 @@
     "winston": "^3.13.0",
     "winston-mongodb": "^5.1.1"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
 }
